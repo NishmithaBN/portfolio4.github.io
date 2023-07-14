@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="stylecss.css">
+  <script src="https://kit.fontawesome.com/05fc9cd7be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div id="header" >
+        <div class="container">
+            <img src="nish.jpg" alt=""/>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Project work</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h2>Software Developer</h2>
+                <h1>Hi,I'm <span>Nishmitha </span><br>from Kundapura</h1>
+    </div>
+    </div>
+    <!<!-- about -->
+   <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="pinky.jpg" alt=""/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated and skilled MCA graduate seeking a challenging position as a Software Developer.<br> Passionate about programming and eager to apply my knowledge and skills to contribute to the success of a dynamic organization.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                           <p class="tab-links"onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('project')">Project</p>
+                    </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Database/Program Language </span><br> SQL,Mongodb,C++,C,Java</li>
+                             <li><span>Web Development</span><br>HTML,CSS,Javascript</li>
+                             <li><span>App Development</span><br>Android studio,Java</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Udemy</span><br>Java Online Certification Course in Udemy</li>
+                             <li><span>Udemy </span><br>Android App Development Online Certification Course in Udemy</li>
+                              <li><span>Hacker Ranker</span><br>Gold Badge for Java on Hacker Rank</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 MCA</span><br>St Aloysius Institute of Management and Information Technology,Mangalore </li>
+                             <li><span>2020 BCA</span><br>Bhandarkar’s Arts and Science College,Kundapura </li>
+                              <li><span>2017 PUC</span><br>ST Mary’s PU College, Kundapura </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>Diet-Soft[09-2019 to 02-2020]</span><br>Developed a software application using ReactJS and MongoDB.<br>Implemented features that provide information on diet charts, nutrients, and exercises based on the user-selected diet type. </li>
+                            <li><span>Automation system for Medical[09-2021 to 12-2021]</span><br>Utilized front-end ASP.NET with C# and back-end MySQL<br> to develop a software application for managing medicine, customer, and staff details.</li>
+                              <li><span>Web Developer Intern,Online Job Portal[02-2022 to 06-2022]</span><br>Developed a software application using HTML,CSS and MySQl<br>Online Job Portal is a web application developed to create an interactive job board for job applicants.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>we provide you web design for your web site</p>
+                    <a href="#">learn more</a>
+                </div>  
+                 <div>
+                     <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>we provide you web design for your web site</p>
+                    <a href="#">learn more</a>
+                </div>  
+                 <div>
+                     <i class="fa-brands fa-app-store"></i>
+                    <h2>App development</h2>
+                    <p>we provide you web design for your web site</p>
+                    <a href="#">learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project Work</h1>
+            <div class="work-list">
+                <div class="work">
+                     <img src="diet.jpg" alt=""/>
+                     <div class="layer">
+                         <h3>Diet-soft is web application</h3>
+                         <p>It gives information on diet charts, nutrients ,excise on the bases of user selected diet type.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                </div>
+                <div class="work">
+                    <img src="medical.jpg" alt=""/>
+                     <div class="layer">
+                         <h3>Automation system for Medical website </h3>
+                         <p>It’s a software application to maintain and managing the details of the Medicine, customer and staff details</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                </div>
+                <div class="work">
+                    <img src="onlinejob.jpg" alt=""/>
+                     <div class="layer">
+                         <h3>Online Job portal website</h3>
+                         <p>Online Job Portal is a web application developed to create an interactive job board for job applicants.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+    </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="container">
+            
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bnnishmitha68@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7349712483</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=" https://www.linkedin.com/in/nishmitha-b-n-a28396202"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="NishmithaRao.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="your name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <textarea name="message" rows="6" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Nishmitha and all copyrights are reserved<i class="fa-solid fa-heart"></i></p>
+    </div>
+     <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents= document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+            
+        </script>
+</body>
+</html>
